@@ -2,9 +2,46 @@
     padding: 15px 0;
 
     nav {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 230px 1fr;
     }
     .header__topbar {
-        color: $blue__fontColor;
+        display: flex;
+
+
+        li {
+            align-self: center;
+            position: relative;
+
+            & ~ li {
+                margin-left: 30px;
+            }
+
+            &.active:after {
+                background-color: #5363db;
+                content: '';
+                height: 1px;
+                left: calc(50% - 15px);
+                position: absolute;
+                top: 25px;
+                width: 30px;
+            }
+        }
+
+        a {
+            color: #5363db;
+            font-family: 'OpenSansSemiBold', sans-serif;
+            text-decoration: none;
+        }
+
+        &-left {
+            margin-left: auto;
+        }
+    }
+    .header__logo {
+        img {
+            height: 70px;
+            margin: 0 auto;
+        }
     }
 }

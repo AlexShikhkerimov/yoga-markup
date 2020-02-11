@@ -1,3 +1,7 @@
+* {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 14px; }
+
 .container {
   margin: 0 auto;
   padding: 0 15px;

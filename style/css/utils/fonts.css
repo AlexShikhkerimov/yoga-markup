@@ -12,4 +12,11 @@
   src: url("../../../fonts/opensans/opensansbold.eot");
   src: url("../../../fonts/opensans/opensansbold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansbold.woff") format("woff"), url("../../../fonts/opensans/opensansbold.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "OpenSansSemiBold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../../fonts/opensans/opensanssemibold.eot");
+  src: url("../../../fonts/opensans/opensanssemibold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensanssemibold.woff") format("woff"), url("../../../fonts/opensans/opensanssemibold.ttf") format("truetype"); }
+
 /*# sourceMappingURL=fonts.css.map */

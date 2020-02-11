@@ -62,6 +62,10 @@ select {
 address {
   font-style: normal; }
 
+* {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 14px; }
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -70,13 +74,36 @@ address {
 .header {
   padding: 15px 0; }
   .header nav {
-    display: flex; }
+    display: grid;
+    grid-template-columns: 1fr 230px 1fr; }
   .header .header__topbar {
-    color: #5363db; }
+    display: flex; }
+    .header .header__topbar li {
+      align-self: center;
+      position: relative; }
+      .header .header__topbar li ~ li {
+        margin-left: 30px; }
+      .header .header__topbar li.active:after {
+        background-color: #5363db;
+        content: '';
+        height: 1px;
+        left: calc(50% - 15px);
+        position: absolute;
+        top: 25px;
+        width: 30px; }
+    .header .header__topbar a {
+      color: #5363db;
+      font-family: 'OpenSansSemiBold', sans-serif;
+      text-decoration: none; }
+    .header .header__topbar-left {
+      margin-left: auto; }
+  .header .header__logo img {
+    height: 70px;
+    margin: 0 auto; }
 
 .footer__top {
   background-color: #5b6ceb;
-  color: #fff;
+  color: white;
   padding: 95px 0; }
   .footer__top .footer__top-info {
     display: flex;
@@ -144,5 +171,12 @@ address {
   font-style: normal;
   src: url("../../../fonts/opensans/opensansbold.eot");
   src: url("../../../fonts/opensans/opensansbold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansbold.woff") format("woff"), url("../../../fonts/opensans/opensansbold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../../fonts/opensans/opensanssemibold.eot");
+  src: url("../../../fonts/opensans/opensanssemibold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensanssemibold.woff") format("woff"), url("../../../fonts/opensans/opensanssemibold.ttf") format("truetype"); }
 
 /*# sourceMappingURL=main.css.map */
