@@ -1,4 +1,8 @@
-div {
-    color: red($color: #000000);
-    background-color: #fff;
-}
+@import './base/refresh.scss';
+@import './base/variables.scss';
+@import './base/global.scss';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './layout/main-banner.scss';
+@import './utils/fonts.scss';

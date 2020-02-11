@@ -1,5 +1,148 @@
-div {
-  color: 0;
-  background-color: #fff; }
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0; }
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none; }
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block; }
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em; }
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+address {
+  font-style: normal; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px; }
+
+.header {
+  padding: 15px 0; }
+  .header nav {
+    display: flex; }
+  .header .header__topbar {
+    color: #5363db; }
+
+.footer__top {
+  background-color: #5b6ceb;
+  color: #fff;
+  padding: 95px 0; }
+  .footer__top .footer__top-info {
+    display: flex;
+    padding-bottom: 45px; }
+  .footer__top-column {
+    width: 50%; }
+  .footer__top .footer__column-title {
+    font-family: 'OpenSansBold', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase; }
+  .footer__top .footer__column-content {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    padding-top: 50px; }
+    .footer__top .footer__column-content__left {
+      max-width: 470px; }
+    .footer__top .footer__column-content__right {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 50px;
+      grid-row-gap: 20px; }
+  .footer__top .info-point {
+    padding-left: 35px;
+    position: relative; }
+    .footer__top .info-point:before {
+      position: absolute;
+      left: 0;
+      top: 3px; }
+    .footer__top .info-point__address:before {
+      content: url("../../../img/icons/footer-address.png"); }
+    .footer__top .info-point__email:before {
+      content: url("../../../img/icons/footer-email.png"); }
+    .footer__top .info-point__phone:before {
+      content: url("../../../img/icons/phone-call.png"); }
+    .footer__top .info-point__url:before {
+      content: url("../../../img/icons/planet-earth.png"); }
+  .footer__top .footer__social-list {
+    display: flex; }
+    .footer__top .footer__social-list li {
+      margin-right: 15px; }
+
+.footer__bottom {
+  background-color: #5363d8;
+  padding: 35px 0 35px; }
+  .footer__bottom-copyright {
+    color: #b7bffc;
+    margin: 0 auto;
+    text-align: center; }
+
+.main-banner {
+  background-image: url("../../../img/slider-bg.png");
+  height: 600px; }
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../../fonts/opensans/opensans.eot");
+  src: url("../../../fonts/opensans/opensans.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensans.woff") format("woff"), url("../../../fonts/opensans/opensans.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSansBold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../../fonts/opensans/opensansbold.eot");
+  src: url("../../../fonts/opensans/opensansbold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansbold.woff") format("woff"), url("../../../fonts/opensans/opensansbold.ttf") format("truetype"); }
 
 /*# sourceMappingURL=main.css.map */
