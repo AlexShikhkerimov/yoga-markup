@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","sources":["main.scss"],"sourcesContent":["div {\r\n    color: red($color: #000000);\r\n    background-color: #fff;\r\n}"],"names":[],"mappings":"AAAA,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,CAAoB;EAC3B,gBAAgB,EAAE,IAAI,GACzB"}
