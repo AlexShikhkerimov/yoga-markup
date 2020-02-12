@@ -19,4 +19,11 @@
   src: url("../../../fonts/opensans/opensanssemibold.eot");
   src: url("../../../fonts/opensans/opensanssemibold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensanssemibold.woff") format("woff"), url("../../../fonts/opensans/opensanssemibold.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "FreeStyleRegular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../../fonts/freestyle/FreestyleScriptRegular.eot");
+  src: url("../../../fonts/freestyle/FreestyleScriptRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/freestyle/FreestyleScriptRegular.woff") format("woff"), url("../../../fonts/freestyle/FreestyleScriptRegular.ttf") format("truetype"); }
+
 /*# sourceMappingURL=fonts.css.map */
