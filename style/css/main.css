@@ -253,6 +253,50 @@ address {
     .gallery-item .gallery-link:hover .gallery-link__overlay {
       opacity: 1; }
 
+.about-us {
+  padding: 125px 0; }
+  .about-us .about-slider {
+    display: flex; }
+  .about-us .about-column {
+    width: 50%; }
+  .about-us .text-column {
+    padding: 20px 0; }
+    .about-us .text-column .about-title {
+      font-family: 'OpenSansBold', sans-serif;
+      font-size: 30px;
+      color: #5b6ceb;
+      padding-bottom: 25px; }
+    .about-us .text-column .about-description {
+      color: #555;
+      max-width: 470px; }
+  .about-us .img-column {
+    padding: 0 15px;
+    position: relative; }
+  .about-us .prev-btn,
+  .about-us .next-btn {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    width: 50px;
+    z-index: 10;
+    transition: .3s; }
+  .about-us .prev-btn {
+    background-image: url("../../../img/icons/prev-arrow.png");
+    left: 0; }
+    .about-us .prev-btn:hover {
+      transform: translateX(-5px); }
+  .about-us .next-btn {
+    background-image: url("../../../img/icons/next-arrow.png");
+    right: 0; }
+    .about-us .next-btn:hover {
+      transform: translateX(5px); }
+
 .advantages {
   background-image: url("../../../img/advantages-bg.png");
   padding: 100px 0; }

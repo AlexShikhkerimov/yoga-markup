@@ -1,0 +1,66 @@
+.about-us {
+    padding: 125px 0;
+    
+    .about-slider {
+        display: flex;
+    }
+
+    .about-column {
+        width: 50%;
+    }
+
+    .text-column {
+        padding: 20px 0;
+
+        .about-title {
+            font-family: 'OpenSansBold', sans-serif;
+            font-size: 30px;
+            color: #5b6ceb;
+            padding-bottom: 25px;
+        }
+
+        .about-description {
+            color: #555;
+            max-width: 470px;
+        }
+    }
+
+    .img-column {
+        padding: 0 15px;
+        position: relative;
+    }
+
+    .prev-btn, 
+    .next-btn {
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        height: 50px;
+        position: absolute;
+        top: calc(50% - 25px);
+        width: 50px;
+        z-index: 10;
+        transition: .3s;
+    }
+
+    .prev-btn {
+        background-image: url('../../../img/icons/prev-arrow.png');
+        left: 0;
+
+        &:hover {
+            transform: translateX(-5px);
+        }
+    }
+
+    .next-btn {
+        background-image: url('../../../img/icons/next-arrow.png');
+        right: 0;
+
+        &:hover {
+            transform: translateX(5px);
+        }
+    }
+}
