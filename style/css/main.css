@@ -331,6 +331,63 @@ address {
       font-family: 'OpenSans', sans-serif;
       font-size: 16px; }
 
+.shop {
+  background-image: url("../../../img/--lotos-decoration.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 100px 0 155px; }
+  .shop .offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px; }
+  .shop .offer-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 9px 50px 0px rgba(0, 0, 0, 0.1); }
+    .shop .offer-item .offer-header {
+      background-color: #5b6ceb;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+      display: flex; }
+    .shop .offer-item .dollar {
+      font-family: 'OpenSansBold', sans-serif;
+      font-size: 32px;
+      line-height: 68px;
+      margin-right: 20px;
+      margin-left: auto; }
+    .shop .offer-item .price {
+      font-family: 'OpenSansBold', sans-serif;
+      font-size: 68px;
+      line-height: 68px;
+      margin-right: 5px; }
+    .shop .offer-item .permonth {
+      font-family: 'OpenSansBold', sans-serif;
+      font-size: 18px;
+      margin-right: auto;
+      align-self: flex-end; }
+    .shop .offer-item .offer-info {
+      padding: 40px 70px 45px;
+      font-size: 18px;
+      color: #555; }
+      .shop .offer-item .offer-info .time, .shop .offer-item .offer-info .date, .shop .offer-item .offer-info .advicer {
+        padding-bottom: 40px;
+        font-size: 18px;
+        color: #555; }
+    .shop .offer-item button {
+      background-color: #5b6ceb;
+      border-radius: 20px;
+      color: #fff;
+      display: block;
+      height: 50px;
+      line-height: 40px;
+      font-family: 'OpenSansSemiBold', sans-serif;
+      font-size: 18px;
+      margin: 0 auto;
+      width: 170px; }
+
 .footer__top {
   background-color: #5b6ceb;
   color: white;
