@@ -30,6 +30,9 @@
       position: absolute;
       left: 0;
       top: 3px; }
+    .footer__top .info-point a {
+      text-decoration: none;
+      color: #fff; }
     .footer__top .info-point__address:before {
       content: url("../../../img/icons/footer-address.png"); }
     .footer__top .info-point__email:before {

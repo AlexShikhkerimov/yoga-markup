@@ -1,6 +1,6 @@
 .program {
   padding: 100px 0; }
-  .program .section-title {
+  .program h1 {
     color: #5b6ceb;
     text-transform: uppercase;
     font-family: 'OpenSansBold', sans-serif;
