@@ -4,7 +4,8 @@
   "description": "test task for dzencode company",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "jquery-validation": "^1.19.1"
   },
   "devDependencies": {
     "gulp-sass": "^4.0.2",

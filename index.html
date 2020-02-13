@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/icons/target.com.ico">
 </head>
 
 <body>
@@ -40,11 +41,12 @@
                 <div class="main-banner__column">
                     <div class="main-banner__form">
                         <div class="title">Trial Class</div>
-                        <form action="">
-                            <input type="text" placeholder="Enter your name">
-                            <input type="text" placeholder="Enter your phone">
-                            <select name="" id="">
-                                <option value="0">Chose your class</option>
+                        <form id="form" action="">
+                            <input type="text" name="name" placeholder="Enter your name">
+                            <input type="text" name="phone" placeholder="Enter your phone">
+                            <select name="class" id="">
+                                <option value="" disabled selected style='display:none;' value="0">Chose your class
+                                </option>
                                 <option value="1">FOR LOSE WEIGHT</option>
                                 <option value="2">FOR CHILDREN</option>
                                 <option value="3">FOR ELDERLY</option>
@@ -589,6 +591,7 @@
     <!-- =================== FOOTER end ======================== -->
 
     <script src="./libs/jquery-3.4.1.min.js"></script>
+    <script src="./libs/jquery.validate.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

@@ -27,6 +27,10 @@
       margin-bottom: 15px;
       padding: 0 10px;
       width: 100%; }
+    .main-banner__form label {
+      color: red;
+      margin-top: -15px;
+      display: block; }
     .main-banner__form .form-btn {
       color: #fff;
       display: block;
