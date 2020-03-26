@@ -1,13 +1,13 @@
-@import './base/refresh.scss';
-@import './base/variables.scss';
-@import './base/global.scss';
+@import 'base/refresh';
+@import 'base/variables';
+@import 'base/global';
 
-@import './layout/header.scss';
-@import './layout/main-banner.scss';
-@import './layout/program.scss';
-@import './layout/gallery.scss';
-@import './layout/about-us.scss';
-@import './layout/advantages.scss';
-@import './layout/shop.scss';
-@import './layout/footer.scss';
-@import './utils/fonts.scss';
+@import 'layout/header';
+@import 'layout/main-banner';
+@import 'layout/program';
+@import 'layout/gallery';
+@import 'layout/about-us';
+@import 'layout/advantages';
+@import 'layout/shop';
+@import 'layout/footer';
+@import 'utils/fonts';

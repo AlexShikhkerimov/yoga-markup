@@ -3,34 +3,38 @@
   font-weight: normal;
   font-style: normal;
   src: url("../../../fonts/opensans/opensans.eot");
-  src: url("../../../fonts/opensans/opensans.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensans.ttf") format("truetype"); }
+  src: url("../../../fonts/opensans/opensans.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensans.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "OpenSansBold";
   font-weight: normal;
   font-style: normal;
   src: url("../../../fonts/opensans/opensansbold.eot");
-  src: url("../../../fonts/opensans/opensansbold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansbold.ttf") format("truetype"); }
+  src: url("../../../fonts/opensans/opensansbold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansbold.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "OpenSansSemiBold";
   font-weight: normal;
   font-style: normal;
   src: url("../../../fonts/opensans/opensanssemibold.eot");
-  src: url("../../../fonts/opensans/opensanssemibold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensanssemibold.ttf") format("truetype"); }
+  src: url("../../../fonts/opensans/opensanssemibold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensanssemibold.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "OpenSansItalic";
   font-weight: normal;
   font-style: normal;
   src: url("../../../fonts/opensans/opensansitalic.eot");
-  src: url("../../../fonts/opensans/opensansitalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansitalic.ttf") format("truetype"); }
+  src: url("../../../fonts/opensans/opensansitalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans/opensansitalic.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "FreeStyleRegular";
   font-weight: normal;
   font-style: normal;
   src: url("../../../fonts/freestyle/FreestyleScriptRegular.eot");
-  src: url("../../../fonts/freestyle/FreestyleScriptRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/freestyle/FreestyleScriptRegular.ttf") format("truetype"); }
-
+  src: url("../../../fonts/freestyle/FreestyleScriptRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/freestyle/FreestyleScriptRegular.ttf") format("truetype");
+}
 /*# sourceMappingURL=fonts.css.map */

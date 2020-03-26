@@ -1,13 +1,23 @@
+@import '../utils/mixin';
+
 .header {
     background-color: #fff;
     padding: 15px 0;
-    position: fixed;
+    position: absolute;
     top: 0;
-    transition: 1s;
-    height: 100px;
     width: 100%;
-    max-width: 100vw;
     z-index: 700;
+
+    @include media((
+        height: (xl: 100px, lg: 100px, md: 80px, sm: 60px),
+        padding: (xl: 15px 0, lg: 15px 0, md: 10px 0, sm: 10px 0)
+    ));
+
+    &.header__scroll {
+        position: fixed;
+        animation-duration: 1s;
+        animation-name: slidein;
+    }
 
     nav {
         display: grid;
@@ -15,7 +25,6 @@
     }
     .header__topbar {
         display: flex;
-
 
         li {
             align-self: center;
@@ -25,6 +34,7 @@
                 margin-left: 30px;
             }
 
+            &:hover:after,
             &.active:after {
                 background-color: #5363db;
                 content: '';
@@ -33,6 +43,8 @@
                 position: absolute;
                 top: 25px;
                 width: 30px;
+                animation-duration: 1.5s;
+                animation-name: navActive;
             }
         }
 
@@ -53,3 +65,27 @@
         }
     }
 }
+
+
+
+// Animations
+
+@keyframes slidein {
+    from {
+      top: -100%;
+    }
+  
+    to {
+        top: 0;
+    }
+}
+
+@keyframes navActive {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }

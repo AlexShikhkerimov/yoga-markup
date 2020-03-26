@@ -1,7 +1,10 @@
+@import '../utils/mixin';
+
 .main-banner {
     margin-top: 100px;
     color: #fff;
     background-image: url('../../../img/slider-bg.png');
+    // background-position: right;
     height: 600px;
     padding: 100px 0;
 
@@ -65,13 +68,22 @@
         text-transform: uppercase;
         padding-left: 35px;
         padding-top: 60px;
+
+        @include media((
+            font-size: (xl: 48px, lg: 42px, md: 38px, xs: 30px),
+            padding-left: (lg: 35px 0, md: 15px 0, xs: 0)
+        ));
     }
 
     .banner-subtitle {
         font-family: 'FreeStyleRegular', sans-serif;
-        font-size: 40px;
         line-height: 50px;
         padding-left: 35px;
         padding-top: 40px;
+
+        @include media((
+            font-size: (xl: 40px, lg: 38px, md: 33px, xs: 28px),
+            padding-left: (lg: 35px 0, md: 15px 0, xs: 0)
+        ));
     }
 }

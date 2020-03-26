@@ -1,3 +1,5 @@
+@import '../utils/mixin';
+
 * {
     font-family: 'OpenSans', sans-serif;
     font-size: 14px;
@@ -7,4 +9,8 @@
     margin: 0 auto;
     padding: 0 15px;
     width: 1200px;
+    
+    @include media((
+        width: (xl: 1200px, lg: 960px, md: 720px, sm: 100%, xs: 350px)
+    ));
 }

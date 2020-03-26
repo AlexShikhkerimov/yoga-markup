@@ -3,58 +3,143 @@
   color: #fff;
   background-image: url("../../../img/slider-bg.png");
   height: 600px;
-  padding: 100px 0; }
-  .main-banner__container {
-    display: flex; }
-  .main-banner__column {
-    width: 50%; }
-  .main-banner__form {
-    background-color: #fff;
-    border-radius: 8px;
-    max-width: 300px;
-    margin: 0 20px auto auto;
-    padding: 40px 30px; }
-    .main-banner__form .title {
-      color: #5363db;
-      font-family: 'OpenSansSemiBold', sans-serif;
-      font-size: 25px;
-      padding-bottom: 20px; }
-    .main-banner__form input, .main-banner__form select {
-      border: none;
-      color: #888;
-      border-radius: 8px;
-      background-color: #f2f2f2;
-      height: 50px;
-      margin-bottom: 15px;
-      padding: 0 10px;
-      width: 100%; }
-    .main-banner__form label {
-      color: red;
-      margin-top: -15px;
-      display: block; }
-    .main-banner__form .form-btn {
-      color: #fff;
-      display: block;
-      margin-left: auto;
-      font-size: 16px;
-      font-family: "OpenSansBold";
-      border-radius: 8px;
-      background-color: #5b6ceb;
-      box-shadow: 2.121px 2.121px 5px 0px rgba(0, 0, 0, 0.15);
-      height: 50px;
-      margin-top: 15px;
-      width: 170px; }
-  .main-banner .banner-title {
-    font-family: "OpenSansBold";
-    font-size: 48px;
-    text-transform: uppercase;
-    padding-left: 35px;
-    padding-top: 60px; }
-  .main-banner .banner-subtitle {
-    font-family: 'FreeStyleRegular', sans-serif;
-    font-size: 40px;
-    line-height: 50px;
-    padding-left: 35px;
-    padding-top: 40px; }
+  padding: 100px 0;
+}
 
+.main-banner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-banner__column {
+  width: 50%;
+}
+
+.main-banner__form {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 0 20px auto auto;
+  padding: 40px 30px;
+}
+
+.main-banner__form .title {
+  color: #5363db;
+  font-family: 'OpenSansSemiBold', sans-serif;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.main-banner__form input,
+.main-banner__form select {
+  border: none;
+  color: #888;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.main-banner__form label {
+  color: red;
+  margin-top: -15px;
+  display: block;
+}
+
+.main-banner__form .form-btn {
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  font-size: 16px;
+  font-family: "OpenSansBold";
+  border-radius: 8px;
+  background-color: #5b6ceb;
+  -webkit-box-shadow: 2.121px 2.121px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 2.121px 2.121px 5px 0px rgba(0, 0, 0, 0.15);
+  height: 50px;
+  margin-top: 15px;
+  width: 170px;
+}
+
+.main-banner .banner-title {
+  font-family: "OpenSansBold";
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-left: 35px;
+  padding-top: 60px;
+}
+
+.main-banner .banner-subtitle {
+  font-family: 'FreeStyleRegular', sans-serif;
+  line-height: 50px;
+  padding-left: 35px;
+  padding-top: 40px;
+}
+
+@media only screen and (min-width: 0px) {
+  .main-banner .banner-title {
+    font-size: 30px;
+  }
+
+  .main-banner .banner-title {
+    padding-left: 0;
+  }
+
+  .main-banner .banner-subtitle {
+    font-size: 28px;
+  }
+
+  .main-banner .banner-subtitle {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-banner .banner-title {
+    font-size: 38px;
+  }
+
+  .main-banner .banner-title {
+    padding-left: 15px 0;
+  }
+
+  .main-banner .banner-subtitle {
+    font-size: 33px;
+  }
+
+  .main-banner .banner-subtitle {
+    padding-left: 15px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-banner .banner-title {
+    font-size: 42px;
+  }
+
+  .main-banner .banner-title {
+    padding-left: 35px 0;
+  }
+
+  .main-banner .banner-subtitle {
+    font-size: 38px;
+  }
+
+  .main-banner .banner-subtitle {
+    padding-left: 35px 0;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .main-banner .banner-title {
+    font-size: 48px;
+  }
+
+  .main-banner .banner-subtitle {
+    font-size: 40px;
+  }
+}
 /*# sourceMappingURL=main-banner.css.map */

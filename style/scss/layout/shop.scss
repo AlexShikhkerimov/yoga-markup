@@ -23,6 +23,7 @@
             padding: 50px 0;
             text-align: center;
             display: flex;
+            transition: .5s;
         }
 
         .dollar {
@@ -61,7 +62,7 @@
         }
           
 
-        button {
+        .offer-btn {
             background-color: #5b6ceb;
             border-radius: 20px;
             color: #fff;
@@ -71,7 +72,15 @@
             font-family: 'OpenSansSemiBold', sans-serif;
             font-size: 18px;
             margin: 0 auto;
+            transition: .5s;
             width: 170px;
+        }
+
+        &.hoverClass {
+            .offer-header,
+            .offer-btn {
+                background: #A151EA;
+            }
         }
     }
 

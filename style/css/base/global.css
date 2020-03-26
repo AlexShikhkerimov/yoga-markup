@@ -1,10 +1,41 @@
 * {
   font-family: 'OpenSans', sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1200px; }
+  width: 1200px;
+}
 
+@media only screen and (min-width: 0px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 380px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .container {
+    width: 1200px;
+  }
+}
 /*# sourceMappingURL=global.css.map */
