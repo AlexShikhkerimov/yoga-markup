@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^4.0.2",
-    "jquery-validation": "^1.19.1"
+    "jquery-validation": "^1.19.4"
   },
   "devDependencies": {
     "gulp-autoprefixer": "^7.0.1",
